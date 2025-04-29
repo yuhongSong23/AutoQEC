@@ -70,8 +70,8 @@ def logical_circuit_H2_513():
 
 # --------------Build QEC-based FTQC for H2 (Noise-free, 1 physical error)---------------
 # todo: need to be changed when different evaluation are executed
-CODE_NAME = '7_1_3'
-# CODE_NAME = '5_1_3'
+# CODE_NAME = '7_1_3'
+CODE_NAME = '5_1_3'
 print(f"QEC Code {CODE_NAME} for FTQC Implementation")
 code1_H2 = QEC_Code(CODE_NAME, 0)
 code2_H2 = QEC_Code(CODE_NAME, code1_H2.total_qubits)

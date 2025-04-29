@@ -252,7 +252,7 @@ def test_NF_HN_EB():
 
 
 if __name__ == '__main__':
-    out_file = './results/ft_gates_inference_evaluation_' + str(datetime.now()) + '.txt'
+    out_file = './results/FT_Gates_Inference_Evaluation_' + str(datetime.now()) + '.txt'
 
     with open(out_file, 'w') as f, redirect_stdout(f):
         start_time = datetime.now()
